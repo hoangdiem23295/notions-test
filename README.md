@@ -24,3 +24,6 @@ A simple full-stack project with a backend and a frontend, using Node.js and Vit
 - npm run dev
 
 http://localhost:5173/
+
+![image](https://github.com/user-attachments/assets/58ff8f90-dd6a-4ec3-aa92-784f7924fd7d)
+
