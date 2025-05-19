@@ -1,0 +1,57 @@
+.table-wrapper {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: "Inter", sans-serif;
+}
+
+.table-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.table-controls > * {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.notion-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 6px;
+}
+
+.notion-table th {
+  text-align: left;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #6b7280;
+  padding: 6px 8px;
+  user-select: none;
+}
+
+.notion-table td {
+  background-color: #fff;
+  padding: 10px 12px;
+  font-size: 0.875rem;
+  color: #111;
+  vertical-align: middle;
+  border-top: 1px solid #e5e7eb;
+}
+
+.notion-tag {
+  border-radius: 6px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  display: inline-block;
+}

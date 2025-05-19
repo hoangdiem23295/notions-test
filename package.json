@@ -1,0 +1,12 @@
+{
+  "name": "notion-app",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.7",
+    "concurrently": "^8.2.2",
+    "tsx": "^4.19.4"
+  }
+}
